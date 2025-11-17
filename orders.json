@@ -1,0 +1,48 @@
+[
+    {
+        "user_id": 1,
+        "username": "Dmytro",
+        "address": {
+            "country": "Ukraine",
+            "city": "Kyev",
+            "stree": "Khreshchatyk",
+            "house_number": 2,
+            "apartment": 100
+        },
+        "items": [
+            {
+                "name": "Notebook",
+                "price": 145.8,
+                "quantity": 2
+            },
+            {
+                "name": "Pencils",
+                "price": 250.0,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "user_id": 2,
+        "username": "Oksana",
+        "address": {
+            "country": "Ukraine",
+            "city": "Rivne",
+            "stree": "Kyivska",
+            "house_number": 33,
+            "apartment": 15
+        },
+        "items": [
+            {
+                "name": "Drawing album",
+                "price": 300.0,
+                "quantity": 1
+            },
+            {
+                "name": "Gouache",
+                "price": 100.0,
+                "quantity": 1
+            }
+        ]
+    }
+]
