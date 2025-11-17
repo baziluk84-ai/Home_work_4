@@ -3,7 +3,6 @@
         "user_id": 1,
         "username": "Dmytro",
         "address": {
-            "country": "Ukraine",
             "city": "Kyev",
             "stree": "Khreshchatyk",
             "house_number": 2,
@@ -26,7 +25,6 @@
         "user_id": 2,
         "username": "Oksana",
         "address": {
-            "country": "Ukraine",
             "city": "Rivne",
             "stree": "Kyivska",
             "house_number": 33,
@@ -41,6 +39,23 @@
             {
                 "name": "Gouache",
                 "price": 100.0,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "user_id": 3,
+        "username": "Oleh",
+        "address": {
+            "city": "Chernihiv",
+            "stree": "Mikhail Hrushevsky Avenue",
+            "house_number": "10",
+            "apartment": 35
+        },
+        "items": [
+            {
+                "name": "Book",
+                "price": 550,
                 "quantity": 1
             }
         ]

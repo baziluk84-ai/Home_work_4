@@ -5,7 +5,6 @@ import json
 # Датакласи
 @dataclass
 class Address:
-    country: str
     city: str
     stree: str
     house_number: int
@@ -30,7 +29,7 @@ orders = [
     UserOrder(
         user_id=1,
         username="Dmytro",
-        address=Address(country="Ukraine", city = "Kyev", stree = "Khreshchatyk", house_number = 2, apartment=100),
+        address=Address(city = "Kyev", stree = "Khreshchatyk", house_number = 2, apartment=100),
         items = [
             OrderItem(
                 name = "Notebook", price= 145.80, quantity = 2),
@@ -41,10 +40,19 @@ orders = [
     UserOrder(
         user_id=2,
         username="Oksana",
-        address=Address(country="Ukraine", city = "Rivne", stree = "Kyivska", house_number = 33, apartment=15),
+        address=Address(city = "Rivne", stree = "Kyivska", house_number = 33, apartment=15),
         items = [
             OrderItem(name = "Drawing album", price = 300.00, quantity = 1),
             OrderItem(name = "Gouache", price = 100.00, quantity = 1),
+        ]
+
+    ),
+    UserOrder(
+        user_id=3,
+        username="Oleh",
+        address=Address(city="Chernihiv", stree="Mikhail Hrushevsky Avenue", house_number="10", apartment=35),
+        items=[
+            OrderItem(name = "Book", price= 550, quantity = 1),
         ]
 
     ),
