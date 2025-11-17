@@ -77,6 +77,7 @@ for item in data:
 
     load_from_file.append(user_order)
 
+
 #Виведення кожного об’єкта в окремому рядку
 for order in load_from_file:
     print(order)
