@@ -61,6 +61,7 @@ orders = [
 #Серіалізація списку в JSON та запис у файл
 order_dict = [asdict(order) for order in orders]
 
+
 with open("orders.json", 'w') as f:
     json.dump(order_dict, f, indent=4)
 
